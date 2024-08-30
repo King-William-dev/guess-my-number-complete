@@ -13,7 +13,7 @@ let secreteNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highScore = 0;
 
-//function to refactory repeated (message) code
+//function to refactor repeated (message) code
 const dispplayMssage = function (message) {
   document.querySelector('.message').textContent = message;
 };
